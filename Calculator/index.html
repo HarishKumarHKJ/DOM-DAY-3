@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>calaculator</title>
+        <link rel="stylesheet" href="style.css" >
+        
+        
+    </head>
+    <body>
+        <div class="header">
+            <h1 id="title">CALCULATOR</h1>
+            </div>
+        <div class="container">
+            
+        <div class="cal">
+            <div>
+            <input type="text" name="display" id="result">
+            </div>
+            <div >
+            <button id="7" type="button" onclick="dis('7')">7</button>
+            <button id="8" type="button" onclick="dis('8')">8</button>
+            <button id="9" type="button"  onclick="dis('9')">9</button>
+            <button id="clear" type="button"  onclick="Clear()">C</button>
+            </div>
+            <div >
+            <button id="6" type="button"  onclick="dis('6')">6</button>
+            <button id="5" type="button"  onclick="dis('5')">5</button>
+            <button id="4" type="button"  onclick="dis('4')">4</button>
+            <button id="add" type="button"  onclick="dis('+')">+</button>
+            </div>
+            <div>
+                <button id="3" type="button" onclick="dis('3')">3</button>
+                <button id="2" type="button" onclick="dis('2')">2</button>
+                <button id="1" type="button" onclick="dis('1')"  >1</button>
+                <button id="subtract" type="button" onclick="dis('-')">-</button>
+            </div>
+            <div >
+                <button  type="button" onclick="dis('*')">*</button>
+                <button id="0" type="button"  onclick="dis('0')">0</button>
+                <button  type="button"  onclick="dis('/')">/</button>
+                <button id="equal" type="button"  onclick="result()">=</button>
+            </div>
+            <div>
+                <button id="." type="button" onclick="dis('.')">.</button>
+                <button id="00" type="button" onclick="dis('00')">00</button>
+                <button id="modulus" type="button" onclick="dis('%')">%</button>
+                <button id="delete" type="button" onclick="del()">DEL</button>
+                
+            </div>
+
+        </div>
+        </div>
+        
+
+        <script src="script.js"></script>
+        <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+        
+    </body>
+</html>
